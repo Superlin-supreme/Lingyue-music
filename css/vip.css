@@ -1,0 +1,148 @@
+body
+{
+	font-family: 微软雅黑;
+}
+a
+{
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+li
+{
+	list-style: none;
+}
+#header
+{
+	width: 100%;
+	height: 130px;
+}
+
+#header .top
+{
+	width: 100%;
+	height: 70px; 
+}
+
+#header .top .logo
+{
+	width: 348px;
+	height: 70px;
+	float: left;
+	cursor: pointer;
+}
+
+#header .top .sign
+{
+	width: 18%;
+	height: 70px;
+	float: right;
+}
+
+#header .top .sign a
+{
+	font-size: 25px;
+	color: black;
+	display: block;
+}
+
+#header .top .sign li
+{
+	width: 30%;
+	height: 70px;
+	float: left;
+	text-align: center;
+}
+
+#header .top .search
+{
+	float: right;
+	margin-top: 20px;
+}
+
+#header .top .searchbox
+{
+	width: 215px;
+	height: 25px;
+	border-radius: 17px;
+	text-indent: 30px;
+	line-height: 25px;
+	border: 2px solid #808080;
+	outline: none;
+	color: #333;
+}
+
+#header .menu
+{
+	width: 100%;
+	height: 60px;
+	background: url(../img/menu_bg.png);
+}
+
+#header .menu .menu_center
+{
+	width: 965px;
+	height: 60px;
+    margin: 0 auto;
+}
+
+#header .menu .menu_center a
+{
+	font-size: 28px;
+	line-height: 60px;	
+	color: #FFFFFF;		
+}
+
+#header .menu .menu_center li
+{
+	width: 230px;
+	height: 60px;
+	float: left;
+	text-align: center;
+}
+
+.container{
+	width: 100%;
+	height: 1555px;
+	float: left;
+}
+
+#vip_user
+{
+	width: 100%;
+	height: 500px;
+	background-color: pink;
+}
+
+#vip_zone
+{
+	width: 965px;
+	height: 935px;
+	margin: 0 auto;
+	background-color: green;
+}
+
+#footer
+{
+	width: 965px;
+	height: 120px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#footer p
+{
+	font-size: 20px;
+}
+#footer p a
+{
+	color: rgb(0,0,0);
+	font-size: 20px;
+}
+
+#footer .team_name
+{
+	font-size: 18px;
+}

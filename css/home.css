@@ -1,0 +1,714 @@
+body
+{
+	font-family: 微软雅黑;
+}
+a
+{
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+li
+{
+	list-style: none;
+}
+#header
+{
+	width: 100%;
+	height: 130px;
+}
+
+#header .top
+{
+	width: 100%;
+	height: 70px; 
+}
+
+#header .top .logo
+{
+	width: 348px;
+	height: 70px;
+	float: left;
+	cursor: pointer;
+}
+
+#header .top .sign
+{
+	width: 18%;
+	height: 70px;
+	float: right;
+}
+
+#header .top .sign a
+{
+	font-size: 25px;
+	color: black;
+	display: block;
+}
+
+#header .top .sign li
+{
+	width: 30%;
+	height: 70px;
+	float: left;
+	text-align: center;
+}
+
+#header .top .search
+{
+	float: right;
+	margin-top: 20px;
+}
+
+#header .top .searchbox
+{
+	width: 215px;
+	height: 25px;
+	border-radius: 17px;
+	text-indent: 30px;
+	line-height: 25px;
+	border: 2px solid #808080;
+	outline: none;
+	color: #333;
+}
+
+#header .menu
+{
+	width: 100%;
+	height: 60px;
+	background: url(../img/menu_bg.png);
+}
+
+#header .menu .menu_center
+{
+	width: 965px;
+	height: 60px;
+    margin: 0 auto;
+}
+
+#header .menu .menu_center a
+{
+	font-size: 28px;
+	line-height: 60px;	
+	color: #FFFFFF;		
+}
+
+#header .menu .menu_center li
+{
+	width: 230px;
+	height: 60px;
+	float: left;
+	text-align: center;
+}
+
+#banner
+{
+	width: 100%;
+	height: 380px;
+	float: left;
+}
+
+#banner #banner_play
+{
+	width: 965px;
+	height: 380px;
+	margin:0 auto;
+	overflow: hidden;
+    position: relative;
+}
+
+#banner #banner_play #list 
+{ 
+    width: 4825px; 
+    height: 380px; 
+    position: absolute; 
+}
+
+#banner #banner_play #list img 
+{
+    width: 965px; 
+    height: 380px;
+    float: left;
+}
+
+#banner #banner_play .arrow 
+{
+    cursor: pointer; 
+    display: none; 
+    line-height: 150px; 
+    text-align: center; 
+    font-size: 36px; 
+    font-weight: bold;
+    width: 80px;
+    height: 150px;
+    position: absolute; 
+    top: 115px; 
+    background-color: RGBA(192,192,192,.3); 
+    color: #fff;
+}
+
+#banner #banner_play .arrow:hover 
+{ 
+    background-color: RGBA(192,192,192,.7);
+}
+
+#banner #banner_play:hover .arrow 
+{
+    display: block;
+}
+
+#banner #banner_play #prev 
+{ 
+    left: 20px;
+}
+
+#banner #banner_play #next 
+{ 
+    right: 20px;
+}
+
+#container
+{
+	width: 965px;
+	height: 1000px;
+	margin:0 auto;
+}
+
+#container .container_left
+{
+	width: 600px;
+	height: 530px;
+	float: left;
+}
+
+#container .container_left .album
+{
+	width: 600px;
+	height: 245px;
+}
+
+#container .container_left .album .album_new
+{
+	width: 600px;
+	height: 200px;
+}
+
+#container .container_left .album .album_new table
+{
+	width: 600px;
+	height: 180px;
+}
+
+#container .container_left .album .album_new table tr
+{
+	font-size: 18px;
+	text-align: center;
+}
+
+#container .container_left .album .album_new table a
+{
+	color: rgb(0,0,0);
+}
+
+#container .container_left .album .album_new .album_new_photo
+{
+	width: 110px;
+	height: 110px;
+}
+
+#container .container_left .song
+{
+	width: 600px;
+	height: 245px;
+	float: left;
+}
+
+#container .container_left .song .song_header
+{
+	width: 600px;
+	height: 45px;
+}
+
+#container .container_left .song .song_header a
+{
+	font-size: 18px;
+	color: blue;
+	float: right;
+	margin-top: 20px;
+}
+
+#container .container_left .song .song_list table
+{
+	border: none;
+	width: 600px;
+	height: 200px;
+}
+
+#container .container_left .song .song_list table tr
+{
+	background-color: #e8e8e8;
+	color: #696969;
+}
+
+
+#container .container_left .song .song_list a
+{
+	color: #696969;
+}
+
+#container .container_right
+{
+	width: 365px;
+	height: 530px;
+	float: right;
+}
+
+#container .container_right #album_hot
+{ 
+    width: 340px; 
+    height: 410px; 
+    border: 3px solid #333; 
+    overflow: hidden; 
+    position: relative;
+    left: 11px;
+}
+
+#container .container_right #album_hot #album_hot_list 
+{ 
+    width: 2040px; 
+    height: 4100px; 
+    position: absolute; 
+}
+
+#container .container_right #album_hot  #album_hot_list img 
+{
+    width: 340px; 
+    height: 410px;
+    float: left;
+}
+
+#container .container_right #album_hot .arrow 
+{
+    cursor: pointer; 
+    display: none; 
+    line-height: 100px; 
+    text-align: center; 
+    font-size: 36px; 
+    font-weight: bold;
+    width: 30px;
+    height: 100px;
+    position: absolute; 
+    top: 150px; 
+    background-color: RGBA(0,0,0,.6); 
+    color: #fff;
+}
+
+#container .container_right #album_hot .arrow:hover 
+{ 
+    background-color: RGBA(192,192,192,.7);
+}
+
+#container .container_right #album_hot:hover .arrow 
+{
+    display: block;
+}
+
+#container .container_right #album_hot #prev_album
+{ 
+    left: 20px;
+}
+
+#container .container_right #album_hot #next_album 
+{ 
+    right: 20px;
+}
+
+#container .container_right .album_hot_more a
+{
+	position: relative;
+	top: 20px;
+	float: right;
+	font-size: 18px;
+	color: blue;
+}
+
+
+#container .container_down
+{
+	width: 965px;
+	height: 515px;
+	float: left;
+
+}
+
+#container .container_down a
+{
+	font-size: 18px;
+	color: blue;
+	float: right;	
+	margin-top: 20px;
+}
+
+#container .container_down .list_list
+{
+	width: 100%;
+	height: 55px;
+}
+
+#container .container_down .boy_singer
+{
+	width: 315px;
+	height: 390px;
+	float: left;
+}
+
+#container .container_down .boy_singer .boy_title
+{
+	width: 315px;
+	height: 240px;
+}
+
+#container .container_down .boy_singer .boy_title p
+{
+	font-size: 18px;
+	color: #696969;
+	float: left;
+	margin-top: 3px;
+}
+
+#container .container_down .boy_singer .boy_title a
+{
+	font-size: 16px;
+	float: right;
+	color: #696969;
+	margin-top: 5px;
+}
+
+#container .container_down .boy_singer .boy_title .boy_singer1
+{
+	width: 195px;
+	height: 210px;
+	float: left;
+	margin-left: 60px;
+}
+
+#container .container_down .boy_singer .boy_list
+{
+	width: 315px;
+	height: 385px;
+}
+
+#container .container_down .boy_singer .boy_list table
+{
+	border: none;
+	width: 300px;
+	height: 140px;
+	float: left;
+	margin-left: 5px;
+}
+#container .container_down .boy_singer .boy_list table tr
+{
+	font-size: 16px;
+	text-align: center;
+	color: black;
+	background-color:rgba(128,128,128,.3);
+}
+
+#container .container_down .boy_singer .boy_list a
+{
+	font-size: 16px;
+	margin-right: 20px;
+	margin-top: 0;
+	color: black;
+}
+
+#container .container_down .boy_singer .boy_list .top
+{
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+}
+
+#container .container_down .boy_singer .boy_list .top_singer
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#container .container_down .girl_singer
+{
+	width: 315px;
+	height: 390px;
+	float: left;
+	margin-left: 10px;
+}
+
+#container .container_down .girl_singer .girl_title
+{
+	width: 315px;
+	height: 240px;
+}
+
+#container .container_down .girl_singer .girl_title p
+{
+	font-size: 18px;
+	color: #696969;
+	float: left;
+	margin-top: 3px;
+}
+
+#container .container_down .girl_singer .girl_title a
+{
+	font-size: 16px;
+	float: right;
+	color: #696969;
+	margin-top: 5px;
+}
+
+#container .container_down .girl_singer .girl_title .girl_singer1
+{
+	width: 195px;
+	height: 210px;
+	float: left;
+	margin-left: 60px;
+}
+
+#container .container_down .girl_singer .girl_list
+{
+	width: 315px;
+	height: 145px;
+}
+
+#container .container_down .girl_singer .girl_list table
+{
+	border: none;
+	width: 300px;
+	height: 140px;
+	float: left;
+	margin-left: 5px;
+}
+#container .container_down .girl_singer .girl_list table tr
+{
+	font-size: 16px;
+	text-align: center;
+	color: black;
+	background-color: rgba(128,128,128,.3);
+}
+
+#container .container_down .girl_singer .girl_list a
+{
+	font-size: 16px;
+	margin-right: 20px;
+	margin-top: 0;
+	color: black;
+}
+
+#container .container_down .girl_singer .girl_list .top
+{
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+}
+
+#container .container_down .girl_singer .girl_list .top_singer
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#container .container_down .girl_singer .girl_list .girl_singer1
+{
+	width: 100px;
+	height: 120px;
+	float: left;
+	margin-top: 10px;
+}
+
+#container .container_down .group_singer
+{
+	width: 315px;
+	height: 390px;
+	float: right;
+}
+
+#container .container_down .group_singer .group_title
+{
+	width: 315px;
+	height: 240px;
+}
+
+#container .container_down .group_singer .group_title p
+{
+	font-size: 18px;
+	color: #696969;
+	float: left;
+	margin-top: 3px;
+}
+
+#container .container_down .group_singer .group_title a
+{
+	font-size: 16px;
+	float: right;
+	color: #696969;
+	margin-top: 5px;
+}
+
+#container .container_down .group_singer .group_title .group_singer1
+{
+	width: 195px;
+	height: 210px;
+	float: left;
+	margin-left: 60px;
+}
+
+#container .container_down .group_singer .group_list
+{
+	width: 315px;
+	height: 145px;
+}
+
+#container .container_down .group_singer .group_list table
+{
+	border: none;
+	width: 300px;
+	height: 140px;
+	float: left;
+	margin-left: 5px;
+}
+#container .container_down .group_singer .group_list table tr
+{
+	font-size: 16px;
+	color: black;
+	background-color:rgba(128,128,128,.3);
+}
+
+#container .container_down .group_singer .group_list a
+{
+	font-size: 16px;
+	margin-right: 20px;
+	margin-top: 0;
+	color: black;
+}
+
+#container .container_down .group_singer .group_list .top
+{
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+}
+
+#container .container_down .group_singer .group_list .top_singer
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#container .container_down .group_singer .group_list .group_singer1
+{
+	width: 100px;
+	height: 120px;
+	float: left;
+	margin-top: 10px;
+}
+
+#mask
+{
+	background: #000;
+	opacity: 0.75;
+	height: 1744px;
+	width: 100%;
+	position: absolute;
+	margin-left: 0;
+	margin-top: 0;
+	z-index:1000;
+	display: none;
+}
+
+#login
+{
+	position: fixed;
+	top:30%;
+	left: 35%;
+	z-index: 1001;
+	display: none;
+}
+
+#login .logincon
+{
+	width: 500px;
+	height: 300px;
+	position: relative;
+	background: white;
+}
+
+#login .logincon .login_top
+{
+	width: 500px;
+	height: 50px;
+	background: url(../img/menu_bg.png);
+}
+
+#login .logincon .login_top p
+{
+	font-size: 30px;
+	margin-left: 165px;
+}
+
+#login .logincon #close
+{
+	width: 30px;
+	height: 30px;
+	background: white;
+	cursor: pointer;
+	position: absolute;
+	top: 10px;
+    right: 10px;
+    background: url(../img/close.png);
+}
+
+#login .logincon .login_in
+{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 75px;
+	right: 100px;
+}
+
+#login .logincon .login_in .login_user
+{
+	width: 300px;
+	height: 200px;
+}
+
+#login .logincon .login_in .login_user tr
+{
+	font-size: 25px;
+	text-align: center;
+	color: black;
+}
+
+#footer
+{
+	width: 965px;
+	height: 120px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#footer p
+{
+	font-size: 20px;
+}
+#footer p a
+{
+	color: rgb(0,0,0);
+	font-size: 20px;
+}
+
+#footer .team_name
+{
+	font-size: 18px;
+}
